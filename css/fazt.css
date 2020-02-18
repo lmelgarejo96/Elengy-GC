@@ -5,20 +5,24 @@ body {
 }
 
 body::-webkit-scrollbar {
+    transition: all 1.5s ease;
     width: .8em;
 }
 
 body::-webkit-scrollbar-track {
+    transition: all 1.5s ease;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 body::-webkit-scrollbar-thumb {
+    transition: all 1.5s ease;
     background-color: #BA0F22;
     outline: 1px solid slategrey
 }
 
 @media screen and (max-width: 600px) {
     body::-webkit-scrollbar {
+        transition: all 1.5s ease;
         width: .15em;
     }
 }
