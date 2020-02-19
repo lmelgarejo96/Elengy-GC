@@ -1,3 +1,7 @@
+window.onload = function() {
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+};
+
 var enlacesHeader = document.querySelectorAll(".navbar-collapse")[0];
 var semaforo = false;
 

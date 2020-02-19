@@ -15,14 +15,13 @@ TweenMax.to(".ring", 3, {
 });
 
 TweenMax.from(".h3-init", 1, {
-    delay: 2.2,
+    delay: 1.5,
     opacity: 0,
     y: -15,
     ease: Expo.easeInOut
 });
 
-
-TweenMax.from("#video-fondo", 3, {
+TweenMax.from("#imagen-fondo", 3, {
     delay: 4.3,
     opacity: 0,
     y: 800,
@@ -64,9 +63,9 @@ setTimeout(() => {
 
 let t1 = new TimelineMax();
 
-t1.from(".ringOne", 3, {
-    delay: 0.7,
+t1.from(".ringOne", 1, {
+    delay: 0.4,
     opacity: 0,
-    y: 150,
+    y: 50,
     ease: Expo.easeInOut
-});
+})
