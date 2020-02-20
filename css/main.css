@@ -56,7 +56,9 @@ body {
  */
 
 .init {
-    background-image: linear-gradient( rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../assets/img/20180525_120228-0002.webp);
+    background-image: linear-gradient( rgba(0, 0, 0, .975), rgba(0, 0, 0, .975))
+    /* , url(../assets/img/20180525_120228-0002.webp) */
+    ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,6 +73,7 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    /* transition: ease-in 1s; */
 }
 
 .init .init-img {

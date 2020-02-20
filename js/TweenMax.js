@@ -57,6 +57,13 @@ TweenMax.from(".title-center", 3, {
     ease: Expo.easeInOut
 });
 
+TweenMax.from(".init", 1, {
+    delay: .15,
+    opacity: 0,
+    y: -10,
+    ease: Expo.easeInOut
+});
+
 setTimeout(() => {
     const ring = document.getElementById('ring');
     ring.style.display = 'flex'
