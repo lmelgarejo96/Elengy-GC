@@ -1,0 +1,9 @@
+- Para ejecutar el proyecto de manera local, luego de haberlo descargado, simplemente abrir el archivo index.html
+
+
+- Para ver o compartir con otros el proyecto publicado, abrir el siguiente enlace:
+https://lmelgarejo96.github.io/Elengy-GC/index.html
+
+
+- Para descargar o clonar el proyecto desde Github, ir al siguiente enlace:
+https://github.com/lmelgarejo96/Elengy-GC
