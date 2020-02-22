@@ -614,6 +614,14 @@ section {
 }
 
 
+/* MODAL */
+
+label {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
 /* .tab-pane iframe {
     min-width: 700px;
     min-height: 450px;

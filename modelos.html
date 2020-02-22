@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=icon href="./assets/img/logo.jpg">
+    <meta name="theme-color" content="#0F2027">
     <!-- BOOTSTRAP -->
     <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css integrity=sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh crossorigin=anonymous>
     <!-- Google Fonts -->
@@ -92,8 +94,8 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="btn-login2" class="nav-item m-2">
-                            <a class="nav-link p-2" href="#">Login<i class="fa fa-user ml-2"></i></a>
+                        <li id="btn-login2" class="nav-item m-2" data-toggle="tooltip" data-placement="top" title="Click para ver cuenta de google">
+                            <a class="nav-link p-2" href="#" data-toggle="modal" data-target="#modalAccount">Ver cuenta<i class="fa fa-user ml-2"></i></a>
                         </li>
 
                     </ul>
@@ -374,7 +376,7 @@
                                             <p class="text-justify">EL personal tienen la responsabilidad de compartir el conocimiento de manera explicita (claridad) con sus compañeros de trabajo.</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="https://lh3.googleusercontent.com/efHavQNWtnk9oFGJCRspnquka1QGFiwXohlFGZQl_H8YOZFvGEYMmwcNlgFeB7S_CxgoAZjMCio1WH0upLVEZbx3DQneX_werqTJwHivAdEhcTAYLQ=w572" alt="Image" class="img-fluid mb-1" style="height: 300px; border: 1px solid rgba(0,0,0,375); border-radius: 2px; width: 100%;">
+                                            <img src="https://3cero.com/wp-content/uploads/2014/06/Qu%C3%A9-es-una-organizaci%C3%B3n-y-qu%C3%A9-no-lo-es.jpg" alt="Image" class="img-fluid mb-1" style="height: 300px; border: 1px solid rgba(0,0,0,375); border-radius: 2px; width: 100%;">
 
                                             <p class="text-left"><strong>Organizacional</strong></p>
                                             <p class="text-justify">Por parte de la organización es brindar infraestructura, el soporte para que sea efectivo creando procesos, cultura, tecnología para así capturar, analizar, valorar y distribuir el conocimiento.</p>
@@ -388,8 +390,7 @@
                                     <p>
                                         Modelo de gestión de conocimiento de Arthur Andersen
                                     </p>
-                                    <img src="https://88531b46-a-62cb3a1a-s-sites.googlegroups.com/site/sodimacgrupo5/gestion-del-conocimiento/mg.png?attachauth=ANoY7co-kYLKPxrxpOjfjwdiHn16oek0GseXQm1XoNcChAY9g7LtwcRLftu_cQRa-G58jrqorJN-x-SSrGBPtEU8qJD1b58vbElDYRugzA0N5QYr43zdWX2nH2dW_TVp9mLLSmCkJxik4GPchdUrrcMokJPY7DTSpkqGOYPYYSMK2OJM4OQQTSONiFHCbkDzIjEDnJQHOO7qOqArdVZU727wVYz08PLZ7ltJ7lQMM2pJjrmNFBBYEFY%3D&attredirects=0"
-                                        alt="" class="img-fluid">
+                                    <img src="./assets/img/andersen-model.png" alt="andersen-model" class="img-fluid">
 
                                 </div>
                             </div>
@@ -455,7 +456,7 @@
                                             <p class="text-justify">Se refiere al compromiso que tiene la empresa con la el aprendizaje continuo.</p>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="https://lh3.googleusercontent.com/HAWwSdeFoBZyHTVXpQU_RAOaYO2c_LWjZWarufHKvk6Qkah56I9WF_udtpFXuu_QnoB4125z6XDWms9RuyCzcWYBQWB5nDGG7UACqZ29Va1N5zA-2Q=w572" alt="Image" class="img-fluid mb-1" style="height: 300px; border: 1px solid rgba(0,0,0,375); border-radius: 2px; width: 100%;">
+                                            <img src="https://blog.luz.vc/wp-content/uploads/2014/08/A-import%C3%A2ncia-do-marketing-de-relacionamento-para-sua-empresa.jpg" alt="Image" class="img-fluid mb-1" style="height: 300px; border: 1px solid rgba(0,0,0,375); border-radius: 2px; width: 100%;">
 
                                             <p class="text-left"><strong>Relación</strong></p>
                                             <p class="text-justify">Los elementos de la empresa no trabajan independientemente sino que estan relacionadas entre si.</p>
@@ -469,7 +470,7 @@
                                     <p>
                                         Modelo de gestión de conocimiento KPMG
                                     </p>
-                                    <img src="https://www.oocities.org/es/freddymacedo/gercon/kpmg.jpg" alt="" class="img-fluid" style="max-width: 500px">
+                                    <img src="./assets/img/kpmg.jpg" alt="" class="img-fluid" style="max-width: 500px">
 
                                 </div>
                             </div>
@@ -568,7 +569,7 @@
                             <div class="person-29191 text-center mb-3">
                                 <div class="right-box-pro wow fadeIn mb-3">
                                     <a href="" target="__blank">
-                                        <img src="https://lh3.googleusercontent.com/Ohjvtj-Km-rMTmgTaVDtEeTpY5eEEVRvTbaZyYaNWzeqKcfm4hGyCLfghFjo7jLcJYPzvfE4MgWT9DP11uLnOImhYs_LkF1HLcDTpVmkaeNvFF5ly4fs=w271" alt="" class="img-rounded over-2" width="100%" style="max-height: 300px;">
+                                        <img src="https://miro.medium.com/max/347/1*M1t5f4Yx08zZVLr9hsqYaA.jpeg" alt="" class="img-rounded over-2" width="100%" style="max-height: 300px;">
                                     </a>
                                 </div>
                             </div>
@@ -587,7 +588,7 @@
                                         miembros de la organización. El modelo describe el contenido del conocimiento, localización, proceso de recolección, distribución y aplicación.
                                     </p>
                                     <div class="person-29191 text-center mb-3">
-                                        <img src="https://lh3.googleusercontent.com/Ohjvtj-Km-rMTmgTaVDtEeTpY5eEEVRvTbaZyYaNWzeqKcfm4hGyCLfghFjo7jLcJYPzvfE4MgWT9DP11uLnOImhYs_LkF1HLcDTpVmkaeNvFF5ly4fs=w271" alt="Image" class="img-fluid mb-4 circular">
+                                        <img src="https://miro.medium.com/max/347/1*M1t5f4Yx08zZVLr9hsqYaA.jpeg" alt="Image" class="img-fluid mb-4 circular">
                                         <div class="px-4">
                                             <h2 class="mb-2">Senior Consultant Karl Wiig</h2>
                                             <p class="caption mb-4">Creador del modelo wiig</p>
@@ -823,6 +824,49 @@
         </footer>
 
     </div>
+
+    <!-- MODAL CUENTA -->
+
+    <div class="modal fade" id="modalAccount" tabindex="-1" role="dialog" aria-labelledby="modalAccount" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark card">
+
+                <div class="card-header text-white d-flex">
+                    <h5 class="modal-title" id="modalAccount">Cuenta de acceso</h5>
+                    <button type="button" class="close ml-auto text-white" data-dismiss="modal" aria-label="Close" style="font-size: 20px;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="d-flex flex-column justify-content-center  p-4 w-100">
+                        <form>
+                            <div class="form-group text-white">
+                                <p><small>Nota: Esta es la cuenta de acceso para utilizar las herramientas de gestión de conocimiento de la empresa Elengy SAC.</small></p>
+                            </div>
+                            <div class="form-group text-center">
+                                <img src="https://www.iaipanama.org/images/img-demo/usuario-registrados.png" class="img-fluid" alt="usuario" style="max-width: 250px; max-height: 250px;">
+                            </div>
+                            <div class="form-group text-white">
+                                <label for="InputEmail1">Email: </label>
+                                <label id="InputEmail1">pruebaportalelengy@gmail.com</label>
+                            </div>
+                            <div class="form-group text-white">
+                                <label for="InputPassword1">Password: </label>
+                                <label id="InputPassword1">port@l123456</label>
+
+                            </div>
+                            <div class="form-group text-white">
+                                <button class="btn btn-info btn-block" data-dismiss="modal">Aceptar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MODAL CUENTA -->
 
     <!-- LOADER -->
     <div class="init">
